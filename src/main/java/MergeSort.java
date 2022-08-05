@@ -1,18 +1,23 @@
-public class MergeSort {
+import java.util.Arrays;
 
-    /** Lab Instructions:
-     *      Implement the sort() method utilizing a Merge Sort algorithm.
-     *      The method will be provided an unsorted array of integers as a parameter.
-     *      The array should be returned from the method in ascending order. Ex:
-     *              input   -> [3,2,5,1,4]
-     *              output  -> [1,2,3,4,5]
-     *
-     *      Be sure to be mindful of the array indices as ArrayIndexOutOfBoundsExceptions
-     *      are very common.
-     */
-    public static Integer[] sort(Integer[] integers){
-        //TODO: Implement Merge Sort
+public class Main {
 
-        return integers;
-    }
+  public static void mergeSort(int[] arr, int n) {
+    // TODO: insert you logic here...
+  }
+  // don't forget about merge().
+
+  public static void main(String[] args) {
+    // Here is an example array.
+    // You can alter this however you want.
+    int[] arr = { 4, 1, 7, 2, 6, 4, 62, 5 };
+    int n = arr.length;
+    // Here is the main Merge Sort method,
+    // please insert the approprate parmeters into this
+    // method.
+    mergeSort(arr, n);
+
+    // Your sorted array should print here:
+    System.out.println(Arrays.toString(arr));
+  }
 }
