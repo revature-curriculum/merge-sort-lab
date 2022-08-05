@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class MergeSort {
 
   public static void mergeSort(int[] arr, int n) {
     // TODO: insert you logic here...
